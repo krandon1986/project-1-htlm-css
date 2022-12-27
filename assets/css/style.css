@@ -16,12 +16,15 @@ body {
 
 /* headings and logo */
 
+#header-bgc {
+    height: 5rem;
+    width: 100%;
+    background-color: #463f1a
+}
 h1  {
     font-family: UnifrakturMaguntia, sans-serif;
     letter-spacing: 1px;
     color: aliceblue;
-   
-
 }
 
 h2  {
@@ -37,11 +40,13 @@ h2  {
     margin-left: 30px;
 }
 
+
 /* navigation links */
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
+    color: #FFFFFF;
 }
 
 #menu, #logo {
@@ -61,9 +66,9 @@ h2  {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #FFFFFF;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #FFFFFF;
 }
