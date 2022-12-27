@@ -21,6 +21,7 @@ body {
     width: 100%;
     background-color: #463f1a
 }
+
 h1  {
     font-family: UnifrakturMaguntia, sans-serif;
     letter-spacing: 1px;
@@ -72,7 +73,7 @@ h2  {
     border-bottom: 1px solid #FFFFFF;
 }
 
-/* hero image */
+/* hero image and cover text*/
 
 #hero-outer {
     height: 600px;
@@ -80,6 +81,11 @@ h2  {
     overflow: hidden;
 
     position: relative;
+}
+
+#cover-text, #cover-text h2  {
+    color: #fff;
+    
 }
 
 #hero-image {
@@ -101,4 +107,24 @@ h2  {
     to{
         transform:scale(1.1);
     }
+}
+
+#cover-text {
+    font-size: 100%;
+    font-family: MedievalSharp, sans-serif;
+    text-transform: uppercase;
+
+
+    width: 450px;
+    height: 30%; 
+
+    padding-bottom: 30px;
+    padding-left: 10px;
+
+    background-color: rgba(92, 64, 51, .5);
+   
+    bottom: 30px;
+    left: 50px;
+
+    position: absolute;
 }
