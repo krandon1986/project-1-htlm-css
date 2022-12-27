@@ -37,3 +37,17 @@ h2  {
     margin-left: 30px;
     background-color: #463f1a;
 }
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right:  30px;
+
+}
