@@ -14,6 +14,10 @@ body {
     color:#3a3a3a
 }
 
+p {
+    font-size: 1.2rem;
+}
+
 /* headings and logo */
 
 #header-bgc {
@@ -128,3 +132,24 @@ h2  {
 
     position: absolute;
 }
+
+/* welcome */
+
+#welcome {
+    text-align: center;
+    font-size: larger;
+    color: #FFFFFF;
+    background-color: #60492c;
+    padding-top: 1rem;
+   
+}   
+ #welcome h2{
+    color: #FFFFFF;
+
+ }
+
+ .center {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+ }
