@@ -260,3 +260,17 @@ footer {
     font-size:  200%;
     color: #FFFFFF;
 }
+
+/* landmarks */
+
+#row-a {
+    text-align: center;
+    font-size: larger;
+    color: #FFFFFF;
+    background-color: #60492c;
+    padding-top: 1rem;
+}
+
+#row-a h2{
+    color:#FFFFFF;
+}
