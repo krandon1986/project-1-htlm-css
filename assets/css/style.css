@@ -186,13 +186,39 @@ h2  {
  #video-content {
     padding-top: 30px;
     width:  33%;
-    float: left;
-    background-color: silver;
+    float: none;
+ 
+ }
+
+ #video-content iframe {
+    position: absolute;
+    bottom: 5;
+    right: 30;
+    width: 50%;
+    height: 60%;
+    border: none;
+ 
+ }
+
+ .video-tube {
+    width: 75%;
+    float:  right;
+    line-height: 40px;
+    clear: both;
+    margin-bottom: 15px;
  }
 
  #video-paragraph {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: green;
+ }
+
+ .tube-paragraph h3 {
+    text-align: center;
+ 
+ }
+
+ .tube-paragraph p {
+    text-align: center;
  }
