@@ -284,7 +284,7 @@ footer {
 #stonehenge {
     margin:0 auto;
     width:115%;
-    height:339px;
+    height:335px;
     transition: background-image 1s ease-in-out;
     background-image:url("../images/stonehenge-2.jpg");
     background-size: cover;
@@ -297,6 +297,14 @@ footer {
     background-image: url("../images/stonehenge-1.jpg");
 }
 
+
 #stonehenge-description {
     text-align: left;
 }
+
+#stonehenge-description h3 {
+    text-align: left;
+}
+
+/* effiel tower landmark */
+
