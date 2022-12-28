@@ -261,7 +261,7 @@ footer {
     color: #FFFFFF;
 }
 
-/* landmarks */
+/* stonehenge landmark */
 
 #row-a {
     text-align: center;
@@ -271,6 +271,32 @@ footer {
     padding-top: 1rem;
 }
 
-#row-a h2{
+#row-a h2 {
     color:#FFFFFF;
+}
+
+#stonehenge-pics {
+    padding-right: 90px;
+    width: 33%;
+    float: left;
+}
+
+#stonehenge {
+    margin:0 auto;
+    width:115%;
+    height:339px;
+    transition: background-image 1s ease-in-out;
+    background-image:url("../images/stonehenge-2.jpg");
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+#stonehenge:hover {
+    background-image: url("../images/stonehenge-1.jpg");
+}
+
+#stonehenge-description {
+    text-align: left;
 }
