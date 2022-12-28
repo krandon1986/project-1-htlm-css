@@ -181,6 +181,7 @@ h2  {
 
  #video-embed {
     height: 600px;
+    background-color: #60492c;
  }
 
  #video-content {
@@ -216,9 +217,20 @@ h2  {
 
  .tube-paragraph h3 {
     text-align: center;
+    color: #FFFFFF;
  
  }
 
  .tube-paragraph p {
     text-align: center;
+    color:#FFFFFF
  }
+
+
+#video-embed-heading {
+    text-align: center;
+    color:#FFFFFF;
+    background-color: #463f1a;
+    margin: 0px 0;
+    font-size: 250%;
+}
