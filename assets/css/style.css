@@ -234,3 +234,29 @@ h2  {
     margin: 0px 0;
     font-size: 250%;
 }
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-media {
+    text-align: center;
+    background-color: #463f1a;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 200%;
+    padding: 0 3rem 0 0;
+    color: #FFFFFF;
+}
+.social-media h4 {
+    margin: 5%;
+    font-size:  200%;
+    color: #FFFFFF;
+}
