@@ -450,7 +450,7 @@ footer {
     width:115%;
     height:335px;
     transition: background-image 1s ease-in-out;
-    background-image:url("../images/stonehenge-2.jpg");
+    background-image:url("../images/colosseum2.jpg");
     background-size: cover;
     background-position: center;
     border-top-left-radius: 3px;
@@ -458,7 +458,7 @@ footer {
 }
 
 #colosseum:hover {
-    background-image: url("../images/stonehenge-1.jpg");
+    background-image: url("../images/colosseum1.jpg");
 }
 
 
