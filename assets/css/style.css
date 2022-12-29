@@ -477,7 +477,7 @@ footer {
     background-image: url('../images/sign-up.jpg');
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 90vh;
 }
 
 #form-detail {
@@ -489,11 +489,15 @@ footer {
     position: absolute;
     padding: 2rem;
     border-radius: 15px;
+    margin-top: 100px;
+    margin-left: 500px;
 }
 
 #form-detail > h2 {
     color:#fff;
     margin-top: 20px;
+    font-size: larger;
+    text-align: center;
 }
 
 #form-detail label {
