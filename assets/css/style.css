@@ -430,7 +430,7 @@ footer {
 
 /* colosseum */
 
-#row-3 {
+#row-e {
     text-align: center;
     font-size: larger;
     color: #FFFFFF;
@@ -462,6 +462,10 @@ footer {
 }
 
 
-#stonehenge-description {
+#colosseum-description {
+    text-align: left;
+}
+
+#colosseum-description h3 {
     text-align: left;
 }
