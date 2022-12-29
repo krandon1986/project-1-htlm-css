@@ -352,5 +352,31 @@ footer {
 
 /* the great pyramid of giza landmark */
 
+#row-c {
+    text-align: center;
+    font-size: larger;
+    color: #FFFFFF;
+    background-color: #60492c;
+    padding-top: 1rem;
+}
+#giza-pyramid-pics {
+    padding-right: 90px;
+    width: 33%;
+    float: left;
+}
 
+#giza-pyramid {
+    margin:0 auto;
+    width:115%;
+    height:335px;
+    transition: background-image 1s ease-in-out;
+    background-image:url("../images/giza-pyramid2.jpg");
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
 
+#stonehenge:hover {
+    background-image: url("../images/giza-pyramid1.jpg");
+}
