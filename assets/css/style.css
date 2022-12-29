@@ -427,3 +427,41 @@ footer {
 #statue-of-liberty:hover {
     background-image: url("../images/statue-of-liberty1.jpg");
 }
+
+/* colosseum */
+
+#row-3 {
+    text-align: center;
+    font-size: larger;
+    color: #FFFFFF;
+    background-color: #60492c;
+    padding-top: 1rem;
+}
+
+
+#colosseum-pics {
+    padding-right: 90px;
+    width: 33%;
+    float: left;
+}
+
+#colosseum {
+    margin:0 auto;
+    width:115%;
+    height:335px;
+    transition: background-image 1s ease-in-out;
+    background-image:url("../images/stonehenge-2.jpg");
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+#colosseum:hover {
+    background-image: url("../images/stonehenge-1.jpg");
+}
+
+
+#stonehenge-description {
+    text-align: left;
+}
