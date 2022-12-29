@@ -368,7 +368,7 @@ footer {
 #giza-pyramid {
     margin:0 auto;
     width:115%;
-    height:335px;
+    height:300px;
     transition: background-image 1s ease-in-out;
     background-image:url("../images/giza-pyramid2.jpg");
     background-size: cover;
@@ -377,7 +377,7 @@ footer {
     border-bottom-left-radius: 3px;
 }
 
-#stonehenge:hover {
+#giza-pyramid:hover {
     background-image: url("../images/giza-pyramid1.jpg");
 }
 
