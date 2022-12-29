@@ -417,7 +417,7 @@ footer {
     width:115%;
     height:310px;
     transition: background-image 1s ease-in-out;
-    background-image:url("../images/eiffel-tower2.jpg");
+    background-image:url("../images/statue-of-liberty2.jpg");
     background-size: cover;
     background-position: center;
     border-top-right-radius: 3px;
@@ -425,5 +425,5 @@ footer {
 }
 
 #statue-of-liberty:hover {
-    background-image: url("../images/eiffel-tower1.jpg");
+    background-image: url("../images/statue-of-liberty1.jpg");
 }
