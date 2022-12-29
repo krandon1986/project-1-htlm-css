@@ -388,3 +388,42 @@ footer {
 #giza-pyramid-description h3 {
     text-align: left;
 }
+
+/* statue of liberty */
+#row-d {
+    text-align: center;
+    font-size: larger;
+    color: #FFFFFF;
+    background-color: #463f1a;
+    padding-top: 1rem;
+}
+
+#statue-of-liberty-description {
+    text-align: right;
+}
+
+#statue-of-liberty-description h3 {
+    text-align: right;
+}
+
+#statue-of-liberty-pics {
+    padding-right: 90px;
+    width: 30%;
+    float: right;
+}
+
+#statue-of-liberty {
+    margin:0 1rem;
+    width:115%;
+    height:310px;
+    transition: background-image 1s ease-in-out;
+    background-image:url("../images/eiffel-tower2.jpg");
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#statue-of-liberty:hover {
+    background-image: url("../images/eiffel-tower1.jpg");
+}
