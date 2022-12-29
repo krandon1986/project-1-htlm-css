@@ -312,15 +312,42 @@ footer {
     text-align: center;
     font-size: larger;
     color: #FFFFFF;
-    background-color: #60492c;
+    background-color: #463f1a;
     padding-top: 1rem;
 }
 
-#stonehenge-description {
+#eiffel-tower-description {
     text-align: right;
 }
 
-#stonehenge-description h3 {
+#eiffel-tower-description h3 {
     text-align: right;
 }
+
+#eiffel-tower-pics {
+    padding-right: 90px;
+    width: 30%;
+    float: right;
+}
+
+#eiffel-tower {
+    margin:0 1rem;
+    width:115%;
+    height:310px;
+    transition: background-image 1s ease-in-out;
+    background-image:url("../images/eiffel-tower2.jpg");
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#eiffel-tower:hover {
+    background-image: url("../images/eiffel-tower1.jpg");
+}
+
+#eiffel-tower-pic p {
+    text-align: center;
+}
+
 
