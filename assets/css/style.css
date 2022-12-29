@@ -448,7 +448,7 @@ footer {
 #colosseum {
     margin:0 auto;
     width:115%;
-    height:335px;
+    height:400px;
     transition: background-image 1s ease-in-out;
     background-image:url("../images/colosseum2.jpg");
     background-size: cover;
