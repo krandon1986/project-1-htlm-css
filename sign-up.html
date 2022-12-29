@@ -30,8 +30,34 @@
         </nav>
     </header>
 
-    <!--Introduction to the website-->
-
+    <!--Sign Up-->
+    <section class="form-section">
+        <form id="form-detail" action="thank-you.html" method="get">
+        <h2>Sign up for More Information <i class="fa-solid fa-file-signature"></i></h2>
+        <br>
+        <label for="fname">First Name</label>
+        <br>
+        <input id="fname"   class="text-input"  name="first_name"    type="text" required>
+        <br><br>
+        <label for="lname">Last Name</label>
+        <br>
+        <input id="lname"   class="text-input"  name="last_name"    type="text" required>
+        <br><br>
+        <label for="email">Email Address</label>
+        <br>
+        <input id="email"   class="text-input"  name="email_address"    type="text" required>
+        <br><br>
+        <label for="male">Male</label>
+        <input type="radio" id="male"   name="running_preference" value="male" required>
+        <label for="female">Female</label>
+        <input type="radio" id="female"   name="running_preference" value="female" required>
+        <label for="non-binary">Non-binary</label>
+        <input type="radio" id="non-binary"   name="running_preference" value="non-binary" required>
+        <br> <br>  
+        <input class="signin-button"    type="submit"   value="Sign Up">
+    </form>
+        
+    </section>
     <footer>
         <ul class="social-media">
             <h4>Follow us</h4>
