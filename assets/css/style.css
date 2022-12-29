@@ -380,3 +380,11 @@ footer {
 #stonehenge:hover {
     background-image: url("../images/giza-pyramid1.jpg");
 }
+
+#giza-pyramid-description {
+    text-align: left;
+}
+
+#giza-pyramid-description h3 {
+    text-align: left;
+}
