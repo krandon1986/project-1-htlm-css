@@ -525,6 +525,7 @@ footer {
 
 .text-input:hover {
     border-color: #f16c6b;
+    
 }
 
 
@@ -542,4 +543,5 @@ footer {
 .signin-button:hover {
     background-color: #fafafa;
     color: #000000;
+    cursor: pointer;
 }
