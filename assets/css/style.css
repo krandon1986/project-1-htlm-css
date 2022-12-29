@@ -306,5 +306,21 @@ footer {
     text-align: left;
 }
 
-/* effiel tower landmark */
+/* eiffel tower landmark */
+
+#row-b {
+    text-align: center;
+    font-size: larger;
+    color: #FFFFFF;
+    background-color: #60492c;
+    padding-top: 1rem;
+}
+
+#stonehenge-description {
+    text-align: right;
+}
+
+#stonehenge-description h3 {
+    text-align: right;
+}
 
