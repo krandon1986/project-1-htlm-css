@@ -481,14 +481,14 @@ footer {
 }
 
 #form-detail {
-    margin: -20rem auto;
+    margin: 10rem auto;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    width: 35rem;
-    height: 20px;
+    width: 30rem;
+    height: auto;
     position: absolute;
-    left: 10%;
-    padding: 30%;
+    padding: 2rem;
+    border-radius: 15px;
 }
 
 #form-detail > h2 {
