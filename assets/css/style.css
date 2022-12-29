@@ -545,3 +545,15 @@ footer {
     color: #000000;
     cursor: pointer;
 }
+
+/* thank you */
+
+#thank-you {
+    margin: 15rem auto;
+    width: 50%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 0.15rem;
+}
