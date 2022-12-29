@@ -11,7 +11,9 @@ body {
 
     font-family: MedievalSharp, sans-serif;
     font-weight: 300;
-    color:#3a3a3a
+    color:#3a3a3a;
+    padding: 0;
+    margin: 0;
 }
 
 p {
@@ -238,7 +240,10 @@ h2  {
 /* footer */
 
 footer {
-    height: 150px;
+    height: 6.25em;
+    background-color: #463f1a;
+    width: 100%;
+    position: absolute;
 }
 
 .social-media {
