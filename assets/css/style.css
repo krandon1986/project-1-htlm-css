@@ -180,7 +180,7 @@ h2  {
 
  /*embedded youtube video */ 
 
- #video-embed {
+ .video-embed {
     height: 600px;
     background-color: #60492c;
  }
@@ -189,6 +189,8 @@ h2  {
     padding-top: 30px;
     width:  33%;
     float: none;
+    height: 33.75rem;
+    margin: 2rem 0 0 10rem;
  
  }
 
@@ -205,20 +207,25 @@ h2  {
 
 
  #video-paragraph {
-    padding-top: 30px;
-    width: 33%;
     float: right;
+    width: 20%;
+    margin: 6rem 6.25rem 0 0;
+    padding: 1rem;
  }
 
  #video-paragraph h3 {
     text-align: center;
     color: #FFFFFF;
+    font-size: larger;
+    margin-bottom: 3;
  
  }
 
  #video-paragraph p {
     text-align: center;
-    color:#FFFFFF
+    color:#FFFFFF;
+    font-size: larger;
+    margin-bottom: 3
  }
 
 
