@@ -161,6 +161,21 @@ This Historical Landmark site was deployed on GitHub page.
     - In the source section drop-down menu, select the 'Main Branch' and click 'Save'
     - After a successful save, the GitHub section will display a message to inform you that the site is ready to be published at https://krandon1986.github.io/project-1-htlm-css/ 
 
+## Credits 
+The following section indentifies websites that supported me build my Historical Landmarks site.
+
+### Contents
+
+- General Guidance
+  - [Font](https://fonts.google.com/) 
+  - [Crossfading](http://css3.bradshawenterprises.com/cfimg/)
+  - [Color Pallettes](https://icolorpalette.com/palette-by-themes/history)
+  - [Wireframes](https://balsamiq.com/)
+  - [Icons](https://fontawesome.com/)
+  - [Pointer](https://www.w3schools.com/cssref/pr_class_cursor.php)
+  - [Images](https://www.pexels.com/)
+  - [Div](https://blog.hubspot.com/website/center-div-css#:~:text=With%20CSS%2C%20you%20can%20center,content%20and%20align%2Ditems%20properties.)
+
 
 
 
