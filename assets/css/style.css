@@ -754,12 +754,25 @@ footer {
 }  
 
 /*embedded youtube video */ 
-
+.video-embed {
+    height: 500px;
+    background-color: #60492c;
+ }
 #video-content {
     width: 19rem;
     height: 10.6875rem;
     margin: auto;
 }
+
+#video-content iframe {
+    position: absolute;
+    bottom: 5;
+    right: 30;
+    width: 50%;
+    height: 25%;
+    border: none;
+ 
+ }
 
 #video-paragraph {
     float: none;
