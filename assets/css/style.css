@@ -892,4 +892,63 @@ footer h4 {
     text-align: center;
 }
 
+/* form */
+
+.form-section {
+    height: 40rem;
+}
+
+#form-detail {
+    margin: 10rem 3rem;
+    width: 80%;
+    height: auto;
+    padding: 0.5rem;
+    border-radius: 15px;
+}
+
+#form-detail > h2 {
+    color:#fff;
+    margin-top: 20px;
+    font-size: small;
+    text-align: center;
+}
+
+#form-detail label {
+    font-size: 0.8rem;
+}
+
+.text-input {
+    background: tranparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+    
+}
+
+
+.signin-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: left;
+    font-size: 100%;
+    background-color: #000000;
+    color: #ff0000;
+    display: block;
+}
+
+.signin-button:hover {
+    background-color: #fafafa;
+    color: #000000;
+    cursor: pointer;
+}
+
+
 }
