@@ -721,29 +721,33 @@ footer {
             font-size: 1rem;
         }
     
-        /* headings and logo */
+    /* headings and logo */
     
-        #header-bgc {
-            position: fixed;
-            top: 0;
-            z-index: 10;
+    #header-bgc {
+        position: fixed;
+        top: 0;
+        z-index: 10;
 
         }
         
-        #logo {
-           float: left;
-           margin: -1rem 0 0 0rem;
-           font-size: 1.5rem;
-           clear: left;
-        }
+    #logo {
+        float: left;
+        margin: -1rem 0 0 0rem;
+        font-size: 1.5rem;
+        clear: left;
+    }
 
-        #menu {
-            margin: 1.2rem 1rem 0 0.8rem;
-            font-size: 1rem;
-            letter-spacing: 0.12rem;
-            float: none;
-            clear: left;
-        }
+    #menu {
+        margin: 1.2rem 1rem 0 0.8rem;
+        font-size: 1rem;
+        letter-spacing: 0.12rem;
+        float: none;
+        clear: left;
+    }
+
+    #cover-text {
+        left: 0;
+    }
 
 /* welcome */
 
@@ -781,5 +785,28 @@ footer {
     padding: 0.5rem;
     display: block;
 }
+/* footers */
+
+
+
+footer h4 {
+    margin: o;
+}
+
+.social-media {
+    text-align: center;
+
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 200%;
+    padding: 0 3rem 0 0;
+    color: #FFFFFF;
+}
+
 
 }
