@@ -108,6 +108,48 @@ Features on that have been implemented on the website will be introduced in this
 
 ![Thank You](assets/screenshots/thank-you.png)
 
+## Testing
+
+- HTML Validator
+    - No errors were shown after HTML code was passing through [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkrandon1986.github.io%2Fproject-1-htlm-css%2Findex.html)
+
+- CSS Validator
+    - No errors was found when passing the CSS code through [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkrandon1986.github.io%2Fproject-1-htlm-css%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+- Accessibility
+    - The sign-up page score minimum of 98% due to background and foreground color not having a sufficent contract ratio. 
+    - The thank-you page also score minimum of 98% due to the heading elements not being in sequentially descending order. 
+    - All the other pages (Home and Landmarks) are 100%. 
+
+        - Home
+
+
+
+            ![Index](assets/screenshots/index-lighthouse.png)
+
+        - Landmarks
+
+
+            ![Landmarks](assets/screenshots/landmarks-lighthouse.png)
+
+        - Sign Up
+
+
+            ![Sign Up](assets/screenshots/sign-up-lighthouse.png)
+
+        - Thank You
+
+
+
+            ![Thank You](assets/screenshots/thank-you-lighthouse.png)
+
+- Mobile Responsiveness
+  - Maximum screen width for responsive design was done at 950px.   
+  - Mobile responsiveness was limited to the "toggle device" feature in Chrome Developer Tools due to lack of access to more physical devices.
+
+  
+
+
 
 
 
