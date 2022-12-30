@@ -147,7 +147,20 @@ Features on that have been implemented on the website will be introduced in this
   - Maximum screen width for responsive design was done at 950px.   
   - Mobile responsiveness was limited to the "toggle device" feature in Chrome Developer Tools due to lack of access to more physical devices.
 
-  
+### Bugs
+
+There was no knowmn bug identified during the final deployment time.
+
+## Deployment
+
+This Historical Landmark site was deployed on GitHub page.
+
+- Here are following steps to deploy your site:
+    - In your GitHid repository, click the 'setting' tab.
+    - Look at the left menu and select 'Pages'
+    - In the source section drop-down menu, select the 'Main Branch' and click 'Save'
+    - After a successful save, the GitHub section will display a message to inform you that the site is ready to be published at https://krandon1986.github.io/project-1-htlm-css/ 
+
 
 
 
