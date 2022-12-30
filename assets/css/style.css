@@ -196,8 +196,6 @@ h2  {
 
  #video-content iframe {
     position: absolute;
-    bottom: 5;
-    right: 30;
     width: 50%;
     height: 60%;
     border: none;
@@ -217,7 +215,7 @@ h2  {
     text-align: center;
     color: #FFFFFF;
     font-size: larger;
-    margin-bottom: 3;
+
  
  }
 
@@ -225,7 +223,7 @@ h2  {
     text-align: center;
     color:#FFFFFF;
     font-size: larger;
-    margin-bottom: 3
+
  }
 
 
@@ -514,7 +512,7 @@ footer {
 }
 
 .text-input {
-    background: tranparent;
+    background-color: tranparent;
     color: #fafafa;
     width: 100%;
     height: 25px;
@@ -742,7 +740,7 @@ footer {
         font-size: 1rem;
         letter-spacing: 0.12rem;
         float: none;
-        clear: left;
+
     }
 
     #cover-text {
@@ -770,8 +768,6 @@ footer {
 
 #video-content iframe {
     position: absolute;
-    bottom: 5;
-    right: 30;
     width: 50%;
     height: 25%;
     border: none;
@@ -918,7 +914,7 @@ footer h4 {
 }
 
 .text-input {
-    background: tranparent;
+    background-color: tranparent;
     color: #fafafa;
     width: 100%;
     height: 25px;
