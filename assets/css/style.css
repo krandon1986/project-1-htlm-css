@@ -724,7 +724,7 @@ footer {
     /* headings and logo */
     
     #header-bgc {
-        position: fixed;
+        position: absolute;
         top: 0;
         z-index: 10;
 
