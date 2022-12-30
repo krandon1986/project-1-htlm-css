@@ -788,9 +788,8 @@ footer {
 /* footers */
 
 
-
 footer h4 {
-    margin: o;
+    margin: 0;
 }
 
 .social-media {
@@ -808,5 +807,89 @@ footer h4 {
     color: #FFFFFF;
 }
 
+ /* stonehenge landmark */
+
+ #row-a {
+    width: 90%;
+    height: 850px;
+    margin: 0 auto;
+ }
+
+ #stonehenge-pics, #stonehenge-description {
+    width: 86.95%;
+    float: left;
+    padding: 0;
+
+}    
+#stonehenge-description h3, p {
+    text-align: center;
+}
+/* eiffel tower landmark */
+
+#row-b {
+    width: 90%;
+    height: 740px;
+    margin: 0 auto;
+}
+
+#eiffel-tower-pics, #eiffel-tower-description {
+    width: 80%;
+    float: left;
+    padding: 0;
+
+}
+#eiffel-tower-description h3, p {
+        text-align: center;
+    }
+
+    /* the great pyramid of giza landmark */
+    
+    #row-c {
+        width: 90%;
+        height: 700px;
+        margin: 0 auto;
+    }
+    #giza-pyramid-pics, #giza-pyramid-description {
+        width: 86.95%;
+        float: left;
+        padding: 0;
+    
+    }    
+    #giza-pyramid-description h3, p {
+        text-align: center;
+    }
+/* statue of liberty*/
+
+#row-d {
+    width: 90%;
+    height: 700px;
+    margin: 0 auto;
+}
+
+#statue-of-liberty-pics, #statue-of-liberty-description {
+    width: 84%;
+    float: left;
+    padding: 0;
+
+}
+#statue-of-liberty-description h3, p {
+        text-align: center;
+    }
+/* colosseum */
+
+#row-e {
+    width: 90%;
+    height: 972px;
+    margin: 0 auto;
+}
+#colosseum-pics, #colosseum-description {
+    width: 86.95%;
+    float: left;
+    padding: 0;
+
+}    
+#colosseum-description h3, p {
+    text-align: center;
+}
 
 }
