@@ -149,12 +149,12 @@ h2  {
 
 #cover-text {
     font-size: 100%;
-    font-family: MedievalSharp, sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
 
 
     width: 450px;
-    height: 30%; 
+    height: 40%; 
 
     padding-bottom: 30px;
     padding-left: 10px;
@@ -609,9 +609,15 @@ footer {
     margin: 0 3rem 0 0.5rem;
 }
 
+/* cover text */
+#cover-text {
+    font-size: 99%;
+    width: 399px;
+}
+
 /* welcome */
 #welcome p {
-    margin: 1.25rem 20rem 1.25rem 20rem;
+    margin: 1rem;
    
 }   
 
@@ -1049,22 +1055,21 @@ footer h4 {
 
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 600px) {
     /* Landmarks */ 
 
  /* stonehenge landmark */
 
  #row-a {
-    width: 90%;
-    height: 900px;
+    height: 975px;
     margin: 0 auto;
  }
 
  #stonehenge-pics, #stonehenge-description {
-    width: 86.95%;
     float: left;
     padding: 0;
     font-size: 0.8rem;
+
 
 }    
 #stonehenge-description h3, p {
@@ -1073,15 +1078,14 @@ footer h4 {
 /* eiffel tower landmark */
 
 #row-b {
-    width: 90%;
-    height: 760px;
+    height: 800px;
     margin: 0 auto;
 }
 
 #eiffel-tower-pics, #eiffel-tower-description {
-    width: 80%;
     float: left;
     padding: 0;
+    width: 83%;
 
 }
 #eiffel-tower-description h3, p {
@@ -1091,47 +1095,43 @@ footer h4 {
 /* the great pyramid of giza landmark */
     
 #row-c {
-    width: 90%;
-    height: 700px;
+    height: 760px;
     margin: 0 auto;
 
 }
 #giza-pyramid-pics, #giza-pyramid-description {
-    width: 86.95%;
     float: left;
     padding: 0;
-    
+    width: 87%;
 }   
 
 #giza-pyramid-description h3, p {
     text-align: center;
 }
+
 /* statue of liberty*/
 
 #row-d {
-    width: 90%;
-    height: 700px;
+    height: 800px;
     margin: 0 auto;
 }
 
 #statue-of-liberty-pics, #statue-of-liberty-description {
-    width: 84%;
     float: left;
     padding: 0;
-
+    width: 83%;
 }
 #statue-of-liberty-description h3, p {
         text-align: center;
     }
+
 /* colosseum */
 
 #row-e {
-    width: 90%;
-    height: 972px;
+    height: 1150px;
     margin: 0 auto;
 }
 #colosseum-pics, #colosseum-description {
-    width: 86.95%;
     float: left;
     padding: 0;
 
@@ -1145,6 +1145,7 @@ footer h4 {
 @media screen and (max-width: 430px) {
 
 /* Navigation */
+
 .menu {
     clear: left;
     float: left;
@@ -1153,19 +1154,53 @@ footer h4 {
     line-height: 25px;
     font-size: 0.5rem;
     display: none;
-    }
+}
 
-    .menu .active {
-        display: inline;
-    }
+.menu .active {
+    display: inline;
+}
 
-    /* Landmarks */ 
 
- /* stonehenge landmark */
+/* hero image and cover text */
+
+#hero-outer {
+    height: 300px;
+}
+
+#cover-text, p {
+    font-size: 60%;
+    width: 350px;
+    height: 15%;
+}
+
+/* welcome */
+#welcome h2 {
+    text-align: center;
+}
+
+#welcome p {
+    text-align: center;
+    margin-left: -30px;
+    font-size: 70%;
+}
+
+ /*embedded youtube video */ 
+
+#video-content {
+    padding-top: 30px;
+    width:  33%;
+    float: none;
+    height: 3rem;
+    margin: 2rem 0 0 10rem;
+ 
+ }
+
+/* Landmarks */ 
+
+/* stonehenge landmark */
 
  #row-a {
-    width: 90%;
-    height: 850px;
+    height: 1000px;
     margin: 0 auto;
  }
 
@@ -1182,47 +1217,47 @@ footer h4 {
 /* eiffel tower landmark */
 
 #row-b {
-    width: 90%;
-    height: 740px;
+    height: 830px;
     margin: 0 auto;
 }
 
 #eiffel-tower-pics, #eiffel-tower-description {
-    width: 80%;
+    width: 83%;
     float: left;
     padding: 0;
 
 }
 #eiffel-tower-description h3, p {
         text-align: center;
-    }
+}
 
-    /* the great pyramid of giza landmark */
+/* the great pyramid of giza landmark */
     
-    #row-c {
-        width: 90%;
-        height: 700px;
-        margin: 0 auto;
-    }
-    #giza-pyramid-pics, #giza-pyramid-description {
-        width: 86.95%;
-        float: left;
-        padding: 0;
+#row-c {
+    height: 790px;
+    margin: 0 auto;
+}
+
+#giza-pyramid-pics, #giza-pyramid-description {
+    width: 86.95%;
+    float: left;
+    padding: 0;
     
-    }    
-    #giza-pyramid-description h3, p {
-        text-align: center;
-    }
+}    
+
+#giza-pyramid-description h3, p {
+    text-align: center;
+
+}
 /* statue of liberty*/
 
 #row-d {
-    width: 90%;
-    height: 700px;
+    height: 800px;
     margin: 0 auto;
 }
 
 #statue-of-liberty-pics, #statue-of-liberty-description {
-    width: 84%;
+    width: 83%;
     float: left;
     padding: 0;
 
@@ -1233,8 +1268,7 @@ footer h4 {
 /* colosseum */
 
 #row-e {
-    width: 90%;
-    height: 972px;
+    height: 1180px;
     margin: 0 auto;
 }
 #colosseum-pics, #colosseum-description {
@@ -1247,4 +1281,146 @@ footer h4 {
     text-align: center;
 }
 
+}
+
+@media screen and (max-width: 400px) {
+
+/* hero image and cover text */
+
+#hero-outer {
+    height: 300px;
+}
+
+#cover-text, p {
+    font-size: 70%;
+    width: 350px;
+    height: 20%;
+}
+
+/* welcome */
+#welcome h2 {
+    text-align: center;
+}
+
+#welcome p {
+    text-align: left;
+    margin-left: -30px;
+}
+
+ /*embedded youtube video */ 
+
+ #video-content {
+    padding-top: 30px;
+    width:  33%;
+    float: none;
+    height: 3rem;
+    margin: 2rem 0 0 5rem;
+ 
+ }
+
+/* Navigation */
+.menu {
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    font-size: 0.5rem;        
+    display: none;
+}
+    
+.menu .active {
+    display: inline;
+}
+    
+/* Landmarks */ 
+    
+/* stonehenge landmark */
+    
+#row-a {
+    height: 1000px;
+    margin: 0 auto;
+}
+    
+#stonehenge-pics, #stonehenge-description {
+    width: 86.95%;
+    float: left;
+    padding: 0;
+    font-size: 0.2rem;
+    }    
+
+#stonehenge-description h3, p {
+     text-align: center;
+}
+
+/* eiffel tower landmark */
+    
+#row-b {
+    height: 900px;
+    margin: 0 auto;
+}
+    
+#eiffel-tower-pics, #eiffel-tower-description {
+    width: 83%;
+    float: left;
+    padding: 0;
+    
+}
+#eiffel-tower-description h3, p {
+    text-align: center;
+}
+    
+/* the great pyramid of giza landmark */
+        
+#row-c {
+     height: 775px;
+    margin: 0 auto;
+}
+    
+#giza-pyramid-pics, #giza-pyramid-description {
+    width: 86.95%;
+     float: left;
+    padding: 0;
+        
+}    
+    
+#giza-pyramid-description h3, p {
+    text-align: center;
+    
+}
+/* statue of liberty*/
+    
+#row-d {
+    height: 870px;
+    margin: 0 auto;
+}
+    
+#statue-of-liberty-pics, #statue-of-liberty-description {
+    width: 83%;
+    float: left;
+    padding: 0;
+    
+}
+
+    #statue-of-liberty-description h3, p {
+    text-align: center;
+}
+
+/* colosseum */
+    
+#row-e {
+    height: 1200px;
+    margin: 0 auto;
+}
+
+#colosseum-pics, #colosseum-description {
+    width: 86.95%;
+    float: left;
+    padding: 0;
+    
+}    
+#colosseum-description h3, p {
+    text-align: center;
+}
+    
 }
