@@ -15,8 +15,14 @@
         <a href="index.html">
             <h1 id="logo">Historical Landmarks</h1>
         </a>
-        <nav>
-            <ul id="menu">
+        <nav class="navbar">
+            <a href="#" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+            </a> 
+            <ul class="menu">
+               
                 <li>
                     <a href="sign-up.html" class="active">Sign Up</a>
                 </li>
@@ -57,6 +63,14 @@
 
         </ul>
     </footer> 
+    <script>
+        const toggleButton = document.getElementsByClassName('toggle-button')[0]
+        const menu = document.getElementsByClassName('menu')[0]
+
+        toggleButton.addEventListener('click', () => {
+            menu.classList.toggle('active')
+        })
+    </script>
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/39af327d44.js" crossorigin="anonymous"></script>
 </body>

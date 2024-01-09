@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=UnifrakturMaguntia&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Roboto&display=swap'); 
 
 /* General Styling */
 * {
@@ -10,7 +10,7 @@
 
 body {
 
-    font-family: MedievalSharp, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color:#3a3a3a;
     padding: 0;
@@ -42,7 +42,7 @@ p {
 }
 
 h1  {
-    font-family: UnifrakturMaguntia, sans-serif;
+    font-family: 'MedievalSharp', sans-serif;
     letter-spacing: 1px;
     color: aliceblue;
 }
@@ -62,34 +62,53 @@ h2  {
 
 /* navigation links */
 
-#menu {
+.menu {
     font-size: 110%;
     letter-spacing: 4px;
     color: #FFFFFF;
 }
 
-#menu, #logo {
+.menu, #logo {
     line-height: 75px;
     
 }
 
-#menu li {
+.menu li {
     float: right;
     list-style-type: none;
     margin-right:  30px;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color:inherit;
 }
 
-#menu a:hover {
+.menu a:hover {
     border-bottom: 1px solid #FFFFFF;
 }
 
 .active {
     border-bottom: 1px solid #FFFFFF;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #463f1a;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
 }
 
 /* hero image and cover text*/
@@ -238,7 +257,6 @@ h2  {
 /* footer */
 
 footer {
-    height: 6.25em;
     background-color: #463f1a;
     width: 100%;
     position: absolute;
@@ -586,8 +604,8 @@ footer {
 
     /* navigation links */
 
-#menu {
-    font-size: 1.5rem;
+.menu {
+    font-size: 1rem;
     margin: 0 3rem 0 0.5rem;
 }
 
@@ -614,14 +632,13 @@ footer {
  /* stonehenge landmark */
 
  #row-a {
-    width: 65%;
-    height: 760px;
+    height: 700px;
     margin: 0 auto;
  }
 
  #stonehenge-pics, #stonehenge-description {
     width: 86.95%;
-    float: left;
+    float: none;
     padding: 0;
 
 }    
@@ -632,66 +649,64 @@ footer {
 /* eiffel tower landmark */
 
 #row-b {
-    width: 65%;
-    height: 650px;
+    height: 725px;
     margin: 0 auto;
 }
 
 #eiffel-tower-pics, #eiffel-tower-description {
     width: 85%;
-    float: left;
+    float: none;
     padding: 0;
 
 }
 #eiffel-tower-description h3, p {
         text-align: center;
-    }
+}
 
 /* the great pyramid of giza landmark */
     
-    #row-c {
-        width: 65%;
-        height: 600px;
-        margin: 0 auto;
-    }
-    #giza-pyramid-pics, #giza-pyramid-description {
-        width: 86.95%;
-        float: left;
-        padding: 0;
-    
-    }    
-    #giza-pyramid-description h3, p {
-        text-align: center;
-    }
+#row-c {
+    height: 600px;
+    margin: 0 auto;
+}
 
-    /* statue of liberty*/
-
-    #row-d {
-        width: 65%;
-        height: 650px;
-        margin: 0 auto;
-    }
-    
-    #statue-of-liberty-pics, #statue-of-liberty-description {
+#giza-pyramid-pics, #giza-pyramid-description {
         width: 85%;
-        float: left;
+        float: none;
         padding: 0;
     
-    }
-    #statue-of-liberty-description h3, p {
-            text-align: center;
-        }
+}    
+
+#giza-pyramid-description h3, p {
+    text-align: center;
+}
+
+/* statue of liberty*/
+
+#row-d {
+     height: 600px;
+    margin: 0 auto;
+}
+    
+#statue-of-liberty-pics, #statue-of-liberty-description {
+    width: 85%;
+    float: none;
+    padding: 0;
+    
+}
+#statue-of-liberty-description h3, p {
+    text-align: center;
+}
 
 /* colosseum */
 
 #row-e {
-    width: 65%;
-    height: 850px;
+    height: 800px;
     margin: 0 auto;
 }
 #colosseum-pics, #colosseum-description {
     width: 86.95%;
-    float: left;
+    float: none;
     padding: 0;
 
 }    
@@ -702,7 +717,7 @@ footer {
 }
 
 /* Smartphone */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1027px) {
 /* General Classes */
 
     .header-style h2, h3 {
@@ -722,7 +737,6 @@ footer {
     /* headings and logo */
     
     #header-bgc {
-        position: absolute;
         top: 0;
         z-index: 10;
 
@@ -735,16 +749,32 @@ footer {
         clear: left;
     }
 
-    #menu {
-        margin: 1.2rem 1rem 0 0.8rem;
+    .menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
         font-size: 1rem;
-        letter-spacing: 0.12rem;
-        float: none;
-
+        display: none;
     }
+
+    .menu.active {
+        display: inline;
+    }
+
 
     #cover-text {
         left: 0;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
     }
 
 /* welcome */
@@ -806,6 +836,334 @@ footer h4 {
  /* stonehenge landmark */
 
  #row-a {
+    height: 710px;
+    margin: 0 auto;
+ }
+
+ #stonehenge-pics, #stonehenge-description {
+    float: left;
+    padding: 0;
+    width: 87%;
+
+}    
+#stonehenge-description h3, p {
+    text-align: center;
+}
+/* eiffel tower landmark */
+
+#row-b {
+    height: 600px;
+    margin: 0 auto;
+}
+
+#eiffel-tower-pics, #eiffel-tower-description {
+    float: left;
+    padding: 0;
+    width: 84%;
+
+}
+#eiffel-tower-description h3, p {
+        text-align: center;
+}
+
+/* the great pyramid of giza landmark */
+    
+#row-c {
+    height: 600px;
+    margin: 0 auto;
+}
+
+#giza-pyramid-pics, #giza-pyramid-description {
+    float: left;
+    padding: 0;
+    
+}    
+#giza-pyramid-description h3, p {
+    text-align: center;
+}
+
+/* statue of liberty*/
+
+#row-d {
+    height: 600px;
+    margin: 0 auto;
+}
+
+#statue-of-liberty-pics, #statue-of-liberty-description {
+    float: left;
+    padding: 0;
+    width: 85%;
+
+}
+#statue-of-liberty-description h3, p {
+        text-align: center;
+    }
+/* colosseum */
+
+#row-e {
+    height: 800px;
+    margin: 0 auto;
+}
+#colosseum-pics, #colosseum-description {
+    float: left;
+    padding: 0;
+
+}    
+#colosseum-description h3, p {
+    text-align: center;
+}
+
+/* form */
+
+.form-section {
+    height: 40rem;
+}
+
+#form-detail {
+    margin: 10rem 3rem;
+    width: 80%;
+    height: auto;
+    padding: 0.5rem;
+    border-radius: 15px;
+}
+
+#form-detail > h2 {
+    color:#fff;
+    margin-top: 20px;
+    font-size: small;
+    text-align: center;
+}
+
+#form-detail label {
+    font-size: 0.8rem;
+}
+
+.text-input {
+    background-color: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+    
+}
+
+
+.signin-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: left;
+    font-size: 100%;
+    background-color: #000000;
+    color: #ff0000;
+    display: block;
+}
+
+.signin-button:hover {
+    background-color: #fafafa;
+    color: #000000;
+    cursor: pointer;
+}
+
+}
+
+@media screen and (max-width: 996px) {
+    
+    /* stonehenge landmark */
+
+#row-a {
+    height: 750px;
+    margin: 0 auto;
+}
+
+    /* eiffel tower landmark */
+
+#row-b {
+    height: 760px;
+    margin: 0 auto;
+}
+
+/* the great pyramid of giza landmark */
+    
+#row-c {
+    height: 700px;
+    margin: 0 auto;
+
+}
+/* statue of liberty*/
+
+#row-d {
+    height: 700px;
+    margin: 0 auto;
+}
+
+/* colosseum */
+#row-e {
+    height: 848px;
+    margin: 0 auto;
+}
+
+}
+
+@media screen and (max-width: 819px) {
+    
+    /* stonehenge landmark */
+
+#row-a {
+    height: 850px;
+    margin: 0 auto;
+}
+
+    /* eiffel tower landmark */
+
+#row-b {
+    height: 700px;
+    margin: 0 auto;
+}
+
+/* the great pyramid of giza landmark */
+    
+#row-c {
+    height: 700px;
+    margin: 0 auto;
+
+}
+/* statue of liberty*/
+
+#row-d {
+    height: 700px;
+    margin: 0 auto;
+}
+
+/* colosseum */
+#row-e {
+    height: 848px;
+    margin: 0 auto;
+}
+
+}
+
+@media screen and (max-width: 540px) {
+    /* Landmarks */ 
+
+ /* stonehenge landmark */
+
+ #row-a {
+    width: 90%;
+    height: 900px;
+    margin: 0 auto;
+ }
+
+ #stonehenge-pics, #stonehenge-description {
+    width: 86.95%;
+    float: left;
+    padding: 0;
+    font-size: 0.8rem;
+
+}    
+#stonehenge-description h3, p {
+    text-align: center;
+}
+/* eiffel tower landmark */
+
+#row-b {
+    width: 90%;
+    height: 760px;
+    margin: 0 auto;
+}
+
+#eiffel-tower-pics, #eiffel-tower-description {
+    width: 80%;
+    float: left;
+    padding: 0;
+
+}
+#eiffel-tower-description h3, p {
+    text-align: center;
+}
+
+/* the great pyramid of giza landmark */
+    
+#row-c {
+    width: 90%;
+    height: 700px;
+    margin: 0 auto;
+
+}
+#giza-pyramid-pics, #giza-pyramid-description {
+    width: 86.95%;
+    float: left;
+    padding: 0;
+    
+}   
+
+#giza-pyramid-description h3, p {
+    text-align: center;
+}
+/* statue of liberty*/
+
+#row-d {
+    width: 90%;
+    height: 700px;
+    margin: 0 auto;
+}
+
+#statue-of-liberty-pics, #statue-of-liberty-description {
+    width: 84%;
+    float: left;
+    padding: 0;
+
+}
+#statue-of-liberty-description h3, p {
+        text-align: center;
+    }
+/* colosseum */
+
+#row-e {
+    width: 90%;
+    height: 972px;
+    margin: 0 auto;
+}
+#colosseum-pics, #colosseum-description {
+    width: 86.95%;
+    float: left;
+    padding: 0;
+
+}    
+#colosseum-description h3, p {
+    text-align: center;
+}
+
+}
+
+@media screen and (max-width: 430px) {
+
+/* Navigation */
+.menu {
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    font-size: 0.5rem;
+    display: none;
+    }
+
+    .menu .active {
+        display: inline;
+    }
+
+    /* Landmarks */ 
+
+ /* stonehenge landmark */
+
+ #row-a {
     width: 90%;
     height: 850px;
     margin: 0 auto;
@@ -815,6 +1173,7 @@ footer h4 {
     width: 86.95%;
     float: left;
     padding: 0;
+    font-size: 0.2rem;
 
 }    
 #stonehenge-description h3, p {
@@ -887,64 +1246,5 @@ footer h4 {
 #colosseum-description h3, p {
     text-align: center;
 }
-
-/* form */
-
-.form-section {
-    height: 40rem;
-}
-
-#form-detail {
-    margin: 10rem 3rem;
-    width: 80%;
-    height: auto;
-    padding: 0.5rem;
-    border-radius: 15px;
-}
-
-#form-detail > h2 {
-    color:#fff;
-    margin-top: 20px;
-    font-size: small;
-    text-align: center;
-}
-
-#form-detail label {
-    font-size: 0.8rem;
-}
-
-.text-input {
-    background-color: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-}
-
-.text-input:hover {
-    border-color: #f16c6b;
-    
-}
-
-
-.signin-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: left;
-    font-size: 100%;
-    background-color: #000000;
-    color: #ff0000;
-    display: block;
-}
-
-.signin-button:hover {
-    background-color: #fafafa;
-    color: #000000;
-    cursor: pointer;
-}
-
 
 }
